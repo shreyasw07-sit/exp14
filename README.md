@@ -1,6 +1,7 @@
 # exp14
 ## 📑 Experiment 14: Data Binning & Formatting
-Author: Samarth Deshmukh
+Author: Shreyas Wani
+PRN:25070123131
 
 Objective: To transform raw numerical data into structured categorical groups (binning) and standardize data types and text formats.
 
