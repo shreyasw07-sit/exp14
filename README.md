@@ -1,61 +1,50 @@
 
-Data Binning and Formatting with Python (Pandas & NumPy)
-Project Overview
-This repository contains a comprehensive Python implementation of Data Binning and Data Formatting techniques using the pandas and numpy libraries. The code demonstrates how to transform raw numerical data into structured categorical groups and how to standardize data types and string formats for better readability and analytical readiness.
+🚀 DATA BINNING & FORMATTING IN PYTHON 🐍
+👤 STUDENT PROFILE
+Name: Shreyas Wani
 
-Core Objectives
-Data Binning: Transforming continuous numerical variables into discrete categories (bins) to simplify analysis and identify patterns.
+PRN: 25070123131
 
-Data Formatting: Standardizing data types, adjusting string casing, and rounding values to ensure consistency across the dataset.
+Experiment No: 14
 
-Data Manipulation: Sorting and calculating frequency distributions of categorized data.
+Institute: Symbiosis Institute of Technology (SIT), Pune
 
-Technical Stack
-Language: Python
+🎯 EXPERIMENT AIM
+"To perform Data Binning and Data Formatting using the Python Programming Language."
 
-Libraries: * pandas: Used for DataFrame creation, binning via pd.cut(), and data type casting.
+🛠️ TECHNICAL TOOLKIT
+Pandas: For high-performance data structures and DataFrame manipulation.
 
-numpy: Supporting numerical operations.
+NumPy: For numerical computing and handling arrays.
 
-Environment: Jupyter Notebook / Google Colab
+Python 3: The core programming language used for logic execution.
 
-Detailed Implementation Breakdown
-1. Electronics Product Dataset
-The first part of the experiment focuses on a retail scenario involving product pricing and sales volume.
+📊 KEY OPERATIONS PERFORMED
+📥 1. DATASET CREATION
+Initialized custom dictionaries representing Electronics Inventory and Food Delivery Orders.
 
-Initialization: Creates a DataFrame with Product, Price, and Units_Sold.
+Converted raw data into structured Pandas DataFrames for processing.
 
-Price Binning: Groups prices into Low, Medium, and High categories using defined thresholds:
+📦 2. DATA BINNING (CATEGORIZATION)
+Price Binning: Grouped products into Low, Medium, and High categories based on price ranges.
 
-0−10,000: Low
+Sales Binning: Categorized units sold into Low, Medium, and High Sales.
 
-10,001−30,000: Medium
+Delivery Analysis: Classified food orders based on Delivery Time (Late, On Time, Early) and Distance (Short, Medium, High).
 
-30,001−60,000: High
+🛠️ 3. DATA FORMATTING (STANDARDIZATION)
+Type Casting: Converted Units_Sold and Delivery_Time from integers to Float for precision.
 
-Sales Binning: Categorizes Units_Sold into Low Sales, Medium Sales, and High Sales.
+String Manipulation: Normalized text by converting product names and categories to UPPERCASE.
 
-Formatting Operations:
+Rounding: Used .round(2) to ensure monetary values maintained a standard decimal format.
 
-Type Casting: Converts Units_Sold from integer to float.
+🧹 4. DATA REFINEMENT
+Sorting: Organized data in both Ascending and Descending order to identify top-performing products.
 
-String Normalization: Converts product names to uppercase (e.g., "Laptop" → "LAPTOP").
+Unique Identification: Extracted unique category labels to verify binning accuracy.
 
-Rounding: Ensures prices are rounded to two decimal places.
+Frequency Counts: Calculated the distribution of orders using .value_counts().
 
-Sorting: Demonstrates both ascending and descending sorts based on the Price column.
-
-2. Food Delivery Orders Dataset
-The second part applies similar logic to a logistics dataset to categorize delivery efficiency and order sizes.
-
-Data Fields: Order_ID, Order_Value, Delivery_Time, and Distance_km.
-
-Multivariate Binning:
-
-Order Value: Categorized as LOW, MEDIUM, or HIGH.
-
-Delivery Time: Categorized as Late (≤25 min), On Time (26−40 min), or Early (41−60 min).
-
-Distance: Categorized as Short, Medium, or High.
-
-Frequency Analysis: Uses .value_counts() to identify the distribution of order categories (e.g., identifying that the majority of orders fall into the 'MEDIUM' and 'HIGH' value brackets).
+✅ CONCLUSION
+Through this experiment, I successfully demonstrated how to transform messy, raw numerical data into clean, categorical insights. This process is essential for preparing datasets for Machine Learning and Statistical Analysis..
